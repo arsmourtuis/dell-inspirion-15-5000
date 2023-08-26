@@ -1,0 +1,40 @@
+.nav-tabs {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    margin-top: 150px;
+    border-bottom: 2px solid #4AA9EA;
+}
+
+.nav-tabs .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 0;
+    padding: 15px 30px;
+    margin: 0;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    background-color: #4AA9EA;
+    color: white;
+}
+
+/* Estilos para el contenido de las pestañas */
+.tab-content {
+    margin-top: 30px;
+}
+
+.tab-pane {
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
