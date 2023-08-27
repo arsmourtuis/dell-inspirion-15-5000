@@ -43,3 +43,33 @@
     text-align: center;
 }
 
+.g-vistas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20%;
+}
+
+.title{
+    padding-left: 20%;
+
+}
+
+@media  screen and (max-width: 978px) {
+    .g-vistas{
+        padding-left: 0% !important;
+    }
+    
+    .title{
+        padding-left: 0% !important;
+    
+    }
+}
+
+@media  screen and (max-width: 478px) {
+    .g-vistas{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+}
